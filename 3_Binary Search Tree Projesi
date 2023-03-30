@@ -1,0 +1,18 @@
+ [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamaları:
+ 
+  1. 7 root olarak atanır.
+  2. 5, 1 ve 8 sırasıyla 7'nin altında sol ve sağ düğümler olarak eklenir.
+  3. 3, 6 5'in altına sol ve sağ düğümler olarak eklenir. 1'in altına 0 sol düğüm ve 4 sağ düğüm olarak eklenir. 8'in altına 9 sağ düğüm olarak eklenir.
+  4. Son olarak 2, 3 ve 4 sırasıyla 1'in altına sol düğümler olarak eklenir.
+  
+Bu işlemler sonrasında aşağıdaki Binary Search Tree yapısı elde edilir.
+
+        7
+      /   \
+    5      8
+   / \      \
+  1   6      9
+ / \        /
+0   4      2
+     \
+      3
